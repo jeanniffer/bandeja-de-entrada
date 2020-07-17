@@ -1,0 +1,412 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+h1 {
+	font-size: 1.8em;
+}
+
+h2 {
+	font-size: 1.6em;
+	color: #4B4B4B;
+
+}
+
+h3, h4 {
+	font-family: "IBM Plex Mono";
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 1em;
+	color: #656565;
+
+}
+
+h4 {
+	font-size: 0.8em;
+}
+
+h5 {
+	font-family: "Karla";
+	font-size: 1em;
+	font-weight: normal;
+}
+
+h6 {
+	font-family: "Kalinga";
+	font-size: 0.9em;
+	font-weight: bold;
+
+}
+
+p {
+	font-family: "Book Antiqua";
+	font-size: 1.1em;
+	color: #A2A2A2;
+	line-height: 1.6em;
+}
+
+h1, h2 {
+	font-family: "Book Antiqua";
+	font-weight: bold;
+}
+
+a:active {
+	color: none;
+}
+
+.menu-container {
+  color: #4B4B4B;
+  background-color: #FAFAFA;
+  display: flex;
+  height: 8%;
+  width: 100%;
+  border-bottom: 0.5px solid #E1E1E1;
+  overflow-x: hidden;
+  position: fixed;
+  top: 0;
+}
+
+.menu {
+	display: flex;
+	align-items: flex-start;
+	vertical-align: 0 auto;
+	width: 50%;
+}
+
+.name {
+	margin-left: 2%;
+	align-self: center;
+}
+
+.titlex {
+	display: flex;
+	align-self: center;
+	margin-left: 40px;
+}
+
+.rightlgn {
+	display: flex;
+	align-items: flex-end;
+	width: 50%;
+	justify-content: space-around;
+	margin-bottom: 20px;
+}
+
+.search {
+	flex-direction: row;
+	padding-left: 350px;
+}
+
+.img {
+	
+}
+
+.profile {
+}
+
+.evless-container {
+	display: flex;
+	align-items: stretch;
+	margin-top: 4%;
+	width: 100%;
+	height: 100%;
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+.columnleft {
+	display: flex;
+	justify-content: stretch;
+	background-color: white;
+	flex-direction: column;
+	height: 92%;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	width: 13%;
+  	position: fixed;
+  	top: 8%;
+  	-webkit-box-shadow: 11px 0px 55px -52px rgba(0,0,0,0.75);
+	-moz-box-shadow: 11px 0px 55px -52px rgba(0,0,0,0.75);
+	box-shadow: 11px 0px 55px -52px rgba(0,0,0,0.75);
+	border-right: 0.5px solid #E1E1E1;
+}
+
+.button{
+	text-align: center;
+	width: 165px;
+	height: 35px;
+	color: #BBBBBB;
+	background-color: #ffffff;
+	margin-top: 14%;
+	margin-left: 5%;
+	font-family: "IBM Plex Mono";
+	font-size: 0.8em;
+	letter-spacing: 2px;
+	border-radius: 4px;
+	border: 1px solid #BBBBBB;
+	text-decoration: none;
+
+}
+
+.button:link,
+.button:visited {
+	display: block;
+	border: none;
+	text-align: center;
+	width: 175px;
+	height: 35px;
+	color: #FFFFFF;
+	margin-top: 15px;
+
+}
+
+.button:hover,
+.button:visited:hover {
+	border: 2px solid #4B4B4B;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+
+.button:active {
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+
+.sections {
+	margin-top: 10%;
+	display: flex;
+	flex-direction: column;
+	letter-spacing: 3px;
+}
+
+.sec {
+	margin-top: 5%;
+	margin-left: 6%;
+}
+
+.sec2 {
+	margin-left: 10%;
+	margin-top: 3%;
+}
+
+.tags {
+	margin-top: 10%;
+	display: flex;
+	flex-direction: column;
+	letter-spacing: 3px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #BBBBBB;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.mails {
+	display: flex;
+	width: 37%;
+	height: 92%;
+	margin-left: 13%;
+	-webkit-box-shadow: 11px 0px 55px -52px rgba(0,0,0,0.75);
+	-moz-box-shadow: 11px 0px 55px -52px rgba(0,0,0,0.75);
+	box-shadow: 11px 0px 55px -52px rgba(0,0,0,0.75);
+	border-right: 0.5px solid #E1E1E1;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.frstm {
+	display: flex;
+	margin-left: 5%;
+	margin-top: 2.5%;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+}
+
+.mtdt {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 5%;
+	margin-top: 2.5%;
+}
+
+.sec3 {
+	display: flex;
+	align-items: flex-start;
+	letter-spacing: 3px;
+	margin-top: 1%;
+}
+
+.fecha {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+	color: #E1E1E1;
+}
+
+.titt {
+	margin-top: 2%;
+}
+
+.txtt {
+	margin-top: 0.6%;
+}
+
+hr.rounded {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-right: 5%;
+ 	border-top: 0.5px solid #E1E1E1;
+}
+
+.blog-container{
+	display: flex;
+	align-items: stretch;
+	flex-direction: column;
+	width: 50%;
+	height: 92%;
+	padding-top: 75px;
+	padding-left: 75px;
+	padding-right: 75px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.bloq {
+	padding-top: 30px;
+}
+
+.pry {
+	color: #FF8E8E;
+}
+
+.ftg {
+	color: #97E9C1;
+}
+
+.vdo {
+	color: #C7B7FF;
+}
+
+.nmd {
+	color: #8EC7FF;
+}
+
+.txt {
+	color: #FFBF8E;
+}
+
+.qte {
+	color: #A2A2A2;
+	padding-top: 25px;
+	padding-left: 30%;
+	text-align: right;
+	font-family: "Book Antiqua";
+	font-style: italic;
+	line-height: 1.4em;
+}
+
+.fech2 {
+	color: #ABABAB;
+}
+
+.subtitt{
+	color: #4B4B4B;
+	padding-top: 35px;
+	text-align: left;
+	font-family: "Book Antiqua";
+	line-height: 1.4em;
+	font-size: 1.4em;
+}
+
+.red{
+	color: #FF8E8E;
+}
+
+.green {
+	color: green;
+}
+
+.tagmargin {
+	margin-left: 10px;
+}
+
+.prueba {
+	display: flex;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #E1E1E1;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #A2A2A2;
+}
+
+.open-mail{
+	color: #656565;
+	background-color: white;
+	text-align: center;
+	border: 1px solid #656565;
+	margin-top: 10%;
+	width: 160px;
+	height: 95px;
+	margin-left: 15px;
+}
+
+.bioytal {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color: white;
+	margin-top: 10%;
+	margin-left: 25%;
+	width: 60%; 
+	height: 90%;
+	color: #656565;
+}
+
+.descrip {
+	margin-top: 4%;
+}
+
+.links {
+	margin-top: 4%;
+}
