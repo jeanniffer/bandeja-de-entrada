@@ -11,6 +11,69 @@ body {
 	overflow-y: hidden;
 }
 
+@font-face {
+	font-family: "Kalinga";
+	src: url("../fonts/kalingab_0.ttf") format("ttf");
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Kalinga";
+	src: url("../fonts/kalinga_0.ttf") format("ttf");
+	font-style: normal;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "IBM Plex Mono";
+	src: url("../fonts/IBMPlexMono-Light.ttf") format("ttf");
+	font-style: normal;
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: "IBM Plex Mono";
+	src: url("../fonts/IBMPlexMono-Regular.ttf") format("ttf");
+	font-style: normal;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "IBM Plex Mono";
+	src: url("../fonts/IBMPlexMono-Medium.ttf") format("ttf");
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "IBM Plex Mono";
+	src: url("../fonts/IBMPlexMono-SemiBold.ttf") format("ttf");
+	font-style: normal;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "IBM Plex Mono";
+	src: url("../fonts/IBMPlexMono-Bold.ttf") format("ttf");
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Book Antiqua";
+	src: url("../fonts/ANTQUAB.ttf") format("ttf");
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Book Antiqua";
+	src: url("../fonts/ANTQUABI.ttf") format("ttf");
+	font-style: italic;
+	font-weight: 700;
+}
+
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
   body {
