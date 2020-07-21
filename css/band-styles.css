@@ -62,21 +62,21 @@ h5 {
 }
 
 h6 {
-	font-family: "Kalinga";
+	font-family: 'Karla', sans-serif;
 	font-size: 0.9em;
 	font-weight: bold;
 
 }
 
 p {
-	font-family: 'Book Antiqua', arial;
+	font-family: 'Book Antiqua', serif;
 	font-size: 1.1em;
 	color: #A2A2A2;
 	line-height: 1.6em;
 }
 
 h1, h2 {
-	font-family: 'Book Antiqua', arial;
+	font-family: 'Book Antiqua', serif;
 	font-weight: bold;
 }
 
@@ -351,7 +351,7 @@ hr.rounded {
 	padding-top: 25px;
 	padding-left: 30%;
 	text-align: right;
-	font-family: 'Book Antiqua', arial;
+	font-family: 'Book Antiqua', serif;
 	font-style: italic;
 	line-height: 1.4em;
 }
