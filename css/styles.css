@@ -1,66 +1,103 @@
-* {
-  margin: 0;
+/* Estilos predeterminados */
+html {
   box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 body {
-	width: 100vw;
-	height: 100vh;
-	color: #FFFFFF;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 18px;
-	overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  overflow: hidden;
 }
 
+/* Tipografías y estilos de texto*/
 h1 {
-	font-size: 2em;
+  font-size: 2em;
 }
-
 h2 {
-	font-size: 1.5em;
-	text-align: center;
-	font-weight: bold;
+  font-size: 1.5em;
 }
 
-h5{
-	font-size: 0.8em;
-
+h3 {
+	font-size: 1.0em;
 }
 
-h1, h2 {
-	font-family: "Book Antiqua", "Georgia", "serif";
+h4 {
+	font-size: 1.0em;
+}
+
+h5 {
+  font-size: 0.8em;
+  margin: 0px;
+}
+
+h1,
+h2 {
+	font-family: 'Fraunces', serif;
 	font-weight: normal;
-
 }
 
-h3, h4, h5 {
-	font-family: "IBM Plex Mono", "Courier New";
-	font-weight: normal;
+h3,
+h4,
+h5 {
+  font-family: "IBM Plex Mono", "Courier New";
+  font-weight: normal;
 }
 
 a {
-	color: #FFFFFF;
+  color: #ffffff;
+  margin: 0px;
 }
 
 div {
-	padding: 0.4em;
-	border: 2px solid #FFFFFF;
-	border-radius: 5px;
-	width: 300px;
-	margin: 20px auto;
+  padding: 0.4em;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  width: 300px;
+  margin: 20px auto;
 }
 
+#inicio {
+  width: calc(100% - 12px);
+  height: calc(100% - 12px);
+  background: linear-gradient(
+    45deg,
+    rgba(255, 142, 142, 1) 0%,
+    rgba(244, 255, 188, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 0 auto;
+}
 
-.elements {
-	width: calc(100% - 12px);
-	height: calc(100% - 12px);
-	background: linear-gradient(45deg, rgba(255,142,142,1) 0%, rgba(244,255,188,1) 100%);
+.titulo {
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	overflow: hidden;
-	margin: 0 auto;
+	margin: 0px;
+}
+
+.subtitulo {
+	display: flex;
+	margin: 0px;
+}
+
+.esconder {
+  display: none;
 }
