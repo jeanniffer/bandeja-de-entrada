@@ -16,10 +16,11 @@ Página web o portafolio o blog o registro de ideas o lugar donde publico la for
 ### CÓDIGO
 
 - DOM / JS
-    - [ ] Eliminar Inicio al hacer clic o enter y entrar en bandeja de entrada
-    - [ ] Modificar el título de bandeja de entrada según lo que se escriba en la página de inicio
+    - [x] Eliminar Inicio al hacer clic o enter y entrar en bandeja de entrada
+    - [ ] Modificar el título de bandeja de entrada según lo que se escriba en la página de inicio ¿Como?
+    variables de javascript y inputs de html
     - [ ] Agregar y ocultar el texto de la derecha según la selección de "post"
-    - [ ] ..
+    - [ ] Cambiar title al pasar a la bandeja de entrada
     - [ ] ..
     - [ ] ..
 - General

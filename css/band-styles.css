@@ -102,7 +102,7 @@ a:active {
 }
 
 
-.menu-container {
+.barra-superior {
   color: #4B4B4B;
   background-color: #FAFAFA;
   display: flex;
@@ -114,42 +114,42 @@ a:active {
   top: 0;
 }
 
-.menu {
+.izquierda {
 	display: flex;
 	align-items: flex-start;
 	vertical-align: 0 auto;
 	width: 50%;
 }
 
-.name {
+.nombre {
 	display: flex;
 	width: 26%;
 	margin-left: 2%;
 	align-self: center;
 }
 
-.titlex {
+.titulo {
 	display: flex;
 	align-self: center;
 	width: 74%;
 	margin-left: 3%;
 }
 
-.rightlgn {
+.derecha {
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
 	width: 50%;
 }
 
-.search {
+.busqueda {
 	margin-left: 2%;
 	margin-right: 5%;
 	align-self: center;
 }
 
 .img {
-	
+	background-color: #4B4B4B;
 }
 
 .profile {
