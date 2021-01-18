@@ -163,7 +163,11 @@ label {
 	width: 50%;
 }
 
-.viendo {
+#selecUno {
+	cursor: pointer;
+}
+
+#espectador {
 	display: flex;
 	width: 30%;
 	margin-left: 2%;
@@ -310,9 +314,10 @@ label {
 .mails {
 	display: block;
 	width: 33%;
-  height: 100%;
+  height: 90%;
   position: absolute;
-  left: 17%;
+	left: 17%;
+	background-color: white;
 	-webkit-box-shadow: 11px 0px 55px -52px rgba(0,0,0,0.75);
 	-moz-box-shadow: 11px 0px 55px -52px rgba(0,0,0,0.75);
 	box-shadow: 11px 0px 55px -52px rgba(0,0,0,0.75);
@@ -375,18 +380,16 @@ label {
   border-bottom: 1px solid #b3b3b380;
 }
 
-.blog-container{
-	display: block;
+#blog-container{
   flex-direction: column;
   position: absolute;
 	width: 50%;
-  height: 100%;
+  height: calc(100% - 70px)%;
   left: 50%;
 	padding-top: 75px;
 	padding-left: 75px;
 	padding-right: 75px;
-	overflow-x: hidden;
-	overflow-y: auto;
+	overflow-x: auto;
 }
 
 .bloq {

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-<!-- Tipografías utilizadas: IBM Plex Mono, Fraunces y Karla-->
 
 <head>
 	<meta charset="UTF-8" />
@@ -20,18 +19,20 @@
 	<!--Pantalla de inicio-->
 	<div id="contenedor">
 		<div id="inicio">
-			<h1 class="yo centrado">Jeanniffer Pimentel <br /></h2>
+			<h1 class="yo centrado">Jeanniffer Pimentel <br /></h1>
 				<h3 class="subtitulo centrado">Proyectos seleccionados (2013-2020)</h3>
-				<label for="nombre"><input type="text" id="nombre" name="name" placeholder="tu nombre"></label>
-				<h5 class="subtitulo" onclick="esconderInicio()"><a href="#">o sigue como espectador</a></h5>
+				<form>
+				<label><input type="text" id="nombre" name="name" placeholder="tu nombre"></label>
+				<button id="boton">Enviar</button>
+			</form>
+				<h5 id="siguiente"><a href="#">o sigue como espectador</a></h5>
 		</div>
 	</div>
 
 	<div id="bandeja">
-		<!--<img src="ideal.png">-->
 		<div class="barra-superior">
 			<div class="izquierda">
-				<h1 class="viendo oscuro">ferio dismo</a></h1>
+				<h1 id="espectador" class="oscuro">ferio dismo</a></h1>
 				<div class="titulo oscuro">
 					<h1>Bandeja de entrada</h1>
 				</div>
@@ -83,6 +84,7 @@
 					</div>
 				</div>
 			</div>
+
 			<div class="mails">
 				<div class="frstm">
 					<div class="mtdt">
@@ -98,145 +100,163 @@
 						<h2 class="yo">Titulo simulado</h2>
 						<p class="claro">Referencia Juan José Arreola</p>
 					</div>
-					<div class="borde"></div>
-					<div class="frstm">
-						<div class="mtdt">
-							<div class="pry sec3">
-								<h5 class="color1"> #PROYECTOS </h4>
-									<h5 class="color2 tagmargin"> #FOTOGRAFÍA </h4>
-							</div>
-							<div class="fecha">
-								<h5>20/06/2020</h6>
-							</div>
-						</div>
-						<div class="nombremail oscuro">
-							<h2 class="yo">Titulo simulado</h2>
-							<p class="claro">Referencia Juan José Arreola</p>
-						</div>
-						<div class="borde"></div>
-					</div>
-					<div class="frstm">
-						<div class="mtdt">
-							<div class="pry sec3">
-								<h5 class="color1"> #PROYECTOS </h4>
-									<h5 class="color2 tagmargin"> #FOTOGRAFÍA </h4>
-							</div>
-							<div class="fecha">
-								<h5>20/06/2020</h6>
-							</div>
-						</div>
-						<div class="nombremail oscuro">
-							<h2 class="yo">Titulo simulado</h2>
-							<p class="claro">Referencia Juan José Arreola</p>
-						</div>
-						<div class="borde"></div>
-					</div>
-					<div class="frstm">
-						<div class="mtdt">
-							<div class="pry sec3">
-								<h5 class="color1"> #PROYECTOS </h4>
-									<h5 class="color2 tagmargin"> #FOTOGRAFÍA </h4>
-							</div>
-							<div class="fecha">
-								<h5>20/06/2020</h6>
-							</div>
-						</div>
-						<div class="nombremail oscuro">
-							<h2 class="yo">Titulo simulado uno</h2>
-							<p class="claro">Referencia Juan José Arreola</p>
-						</div>
-						<div class="borde"></div>
-					</div>
-					<div class="frstm">
-						<div class="mtdt">
-							<div class="pry sec3">
-								<h5 class="color1"> #PROYECTOS </h4>
-									<h5 class="color2 tagmargin"> #FOTOGRAFÍA </h4>
-							</div>
-							<div class="fecha">
-								<h5>20/06/2020</h6>
-							</div>
-						</div>
-						<div class="nombremail oscuro">
-							<h2 class="yo">Titulo simulado</h2>
-							<p class="claro">Referencia Juan José Arreola</p>
-						</div>
-						<div class="borde"></div>
-					</div>
-					<div class="frstm">
-						<div class="mtdt">
-							<div class="pry sec3">
-								<h5 class="color1"> #PROYECTOS </h4>
-									<h5 class="color2 tagmargin"> #FOTOGRAFÍA </h4>
-							</div>
-							<div class="fecha">
-								<h5>20/06/2020</h6>
-							</div>
-						</div>
-						<div class="nombremail oscuro">
-							<h2 class="yo">Titulo simulado</h2>
-							<p class="claro">Referencia Juan José Arreola</p>
-						</div>
-						<div class="borde"></div>
-						<div class="frstm">
-							<div class="mtdt">
-								<div class="pry sec3">
-									<h5 class="color1"> #PROYECTOS </h4>
-										<h5 class="color2 tagmargin"> #FOTOGRAFÍA </h4>
-								</div>
-								<div class="fecha">
-									<h5>20/06/2020</h6>
-								</div>
-							</div>
-							<div class="nombremail oscuro">
-								<h2 class="yo">Titulo simulado</h2>
-								<p class="claro">Referencia Juan José Arreola</p>
-							</div>
-							<div class="borde"></div>
-							<div class="frstm">
-								<div class="mtdt">
-									<div class="pry sec3">
-										<h5 class="color1"> #PROYECTOS </h4>
-											<h5 class="color2 tagmargin"> #FOTOGRAFÍA </h4>
-									</div>
-									<div class="fecha">
-										<h5>20/06/2020</h6>
-									</div>
-								</div>
-								<div class="nombremail oscuro">
-									<h2 class="yo">Titulo simulado</h2>
-									<p class="claro">Referencia Juan José Arreola</p>
-								</div>
-								<div class="borde"></div>
-								<div class="frstm">
-									<div class="mtdt">
-										<div class="pry sec3">
-											<h5 class="color1"> #PROYECTOS </h4>
-												<h5 class="color2 tagmargin"> #FOTOGRAFÍA </h4>
-										</div>
-										<div class="fecha">
-											<h5>20/06/2020</h6>
-										</div>
-									</div>
-									<div class="nombremail oscuro">
-										<h2 class="yo">Titulo simulado</h2>
-										<p class="claro">Referencia Juan José Arreola</p>
-									</div>
-									<div class="borde"></div>
-								</div>
-							</div>
-						</div>
-					</div>
-
 				</div>
+
+				<div class="borde"></div>
+
+				<div class="frstm">
+					<div class="mtdt">
+						<div class="pry sec3">
+							<h5 class="color1"> #PROYECTOS </h4>
+								<h5 class="color2 tagmargin"> #FOTOGRAFÍA </h4>
+						</div>
+						<div class="fecha">
+							<h5>20/06/2020</h6>
+						</div>
+					</div>
+					<div class="nombremail oscuro">
+						<h2 class="yo">Titulo simulado</h2>
+						<p class="claro">Referencia Juan José Arreola</p>
+					</div>
+				</div>
+
+				<div class="borde"></div>
+
+				<div class="frstm">
+					<div class="mtdt">
+						<div class="pry sec3">
+							<h5 class="color1"> #PROYECTOS </h4>
+								<h5 class="color2 tagmargin"> #FOTOGRAFÍA </h4>
+						</div>
+						<div class="fecha">
+							<h5>20/06/2020</h6>
+						</div>
+					</div>
+					<div class="nombremail oscuro">
+						<h2 class="yo">Titulo simulado</h2>
+						<p class="claro">Referencia Juan José Arreola</p>
+					</div>
+				</div>
+
+				<div class="borde"></div>
+
+				<div class="frstm">
+					<div class="mtdt">
+						<div class="pry sec3">
+							<h5 class="color1"> #PROYECTOS </h4>
+								<h5 class="color2 tagmargin"> #FOTOGRAFÍA </h4>
+						</div>
+						<div class="fecha">
+							<h5>20/06/2020</h6>
+						</div>
+					</div>
+					<div class="nombremail oscuro">
+						<h2 class="yo">Titulo simulado uno</h2>
+						<p class="claro">Referencia Juan José Arreola</p>
+					</div>
+				</div>
+
+				<div class="borde"></div>
+
+				<div class="frstm">
+					<div class="mtdt">
+						<div class="pry sec3">
+							<h5 class="color1"> #PROYECTOS </h4>
+								<h5 class="color2 tagmargin"> #FOTOGRAFÍA </h4>
+						</div>
+						<div class="fecha">
+							<h5>20/06/2020</h6>
+						</div>
+					</div>
+					<div class="nombremail oscuro">
+						<h2 class="yo">Titulo simulado</h2>
+						<p class="claro">Referencia Juan José Arreola</p>
+					</div>
+				</div>
+
+				<div class="borde"></div>
+
+				<div class="frstm">
+					<div class="mtdt">
+						<div class="pry sec3">
+							<h5 class="color1"> #PROYECTOS </h4>
+								<h5 class="color2 tagmargin"> #FOTOGRAFÍA </h4>
+						</div>
+						<div class="fecha">
+							<h5>20/06/2020</h6>
+						</div>
+					</div>
+					<div class="nombremail oscuro">
+						<h2 class="yo">Titulo simulado</h2>
+						<p class="claro">Referencia Juan José Arreola</p>
+					</div>
+				</div>
+
+				<div class="borde"></div>
+
+				<div class="frstm">
+					<div class="mtdt">
+						<div class="pry sec3">
+							<h5 class="color1"> #PROYECTOS </h4>
+								<h5 class="color2 tagmargin"> #FOTOGRAFÍA </h4>
+						</div>
+						<div class="fecha">
+							<h5>20/06/2020</h6>
+						</div>
+					</div>
+					<div class="nombremail oscuro">
+						<h2 class="yo">Titulo simulado</h2>
+						<p class="claro">Referencia Juan José Arreola</p>
+					</div>
+				</div>
+
+				<div class="borde"></div>
+
+				<div class="frstm">
+					<div class="mtdt">
+						<div class="pry sec3">
+							<h5 class="color1"> #PROYECTOS </h4>
+								<h5 class="color2 tagmargin"> #FOTOGRAFÍA </h4>
+						</div>
+						<div class="fecha">
+							<h5>20/06/2020</h6>
+						</div>
+					</div>
+					<div class="nombremail oscuro">
+						<h2 class="yo">Titulo simulado</h2>
+						<p class="claro">Referencia Juan José Arreola</p>
+					</div>
+				</div>
+
+				<div class="borde"></div>
+
+				<div id="selecUno" class="frstm">
+					<div class="mtdt">
+						<div class="pry sec3">
+							<h5 class="color1"> #PROYECTOS </h4>
+								<h5 class="color2 tagmargin"> #FOTOGRAFÍA </h4>
+						</div>
+						<div class="fecha">
+							<h5>20/06/2020</h6>
+						</div>
+					</div>
+					<div class="nombremail oscuro">
+						<h2 class="yo">Titulo numero 1</h2>
+						<p class="claro">Esto es un ejemplo</p>
+					</div>
+				</div>
+
+				<div class="borde"></div>
+
 			</div>
-			<div class="blog-container">
-					<h5 class="fech2"> Jun 20, 2020 </h5>
+
+			<div id="blog-container">
+				<h5 class="fech2"> Jun 20, 2020 </h5>
 				<div class="tagsi oscuro">
 					<h4>#TEXTOS</h4>
 				</div>
 				<div class="titt oscuro">
-					<h1>Texto simulado uno</h1>
+					<h1>Titulo numero 1</h1>
 				</div>
 				<div class="qte oscuro">"La afirmación, hasta hoy predominante de que sería fatal descomponer
 					el arte, ya que esta
@@ -246,7 +266,7 @@
 					<br><b>
 						- Vasily Kandinsky - Punto y Línea sobre el plano</b>
 				</div>
-
+		
 				<div class="subtitt oscuro">
 					<h2>Introducción</h2>
 				</div>
@@ -277,9 +297,11 @@
 					labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus
 					commodo viverra maecenas
 					accumsan lacus vel facilisis.</p>
-			</div> 
-		</div>
+			</div>
+
 	</div>
+	</div>
+
 	<script src="./scripts/scripts.js"></script>
 
 </body>
