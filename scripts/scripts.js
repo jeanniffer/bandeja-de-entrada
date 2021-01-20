@@ -47,7 +47,7 @@ function iniciar() {
 function pantallaTelefono() {
   const w = document.documentElement.clientWidth;
 
-  if (w <= 1280) {
+  if (w <= 800) {
     pantallaInicio.style.display = "none";
     responsive.style.display = "block";
   } else {
