@@ -1,21 +1,22 @@
 /* Ideas por hacer:
-  - Enviar nombre del inicio al hacer enter
   - Filtrar proyectos por categoría seleccionada
   - Formulario de enviar mensaje a enviar un correo
   - Ir al perfil al seleccionar Jeanniffer Pimentel
-  - Crear una pantalla si entras desde un móvil que diga que entres desde una pc
   - Crear hover de los botones
   - Arreglar detalles de diagramación
   - Agregar og:tags
+  - Else si no tiene nada o validacion
 */
 
 // Selector de pantallas
 const pantallaInicio = document.getElementById("contenedor");
 const pantallaBandeja = document.getElementById("bandeja");
+const responsive = document.getElementById("responsive");
 
 const saltar = document.getElementById("siguiente");
 const textoInicial = document.getElementById("texto-uno");
-const nombreEspectador = document.getElementById("nombre").value;
+const nombreEspectador = document.getElementById("nombre");
+//const campoTexto = document.getElementById("nombre");
 /* Selección de correos electrónicos */
 const selecUno = document.getElementById("selecUno");
 const selecDos = document.getElementById("selecDos");
@@ -38,8 +39,6 @@ const textoSiete = document.getElementById("texto-siete");
 const textoOcho = document.getElementById("texto-ocho");
 const textoNueve = document.getElementById("texto-nueve");
 
-const responsive = document.getElementById("responsive");
-
 function iniciar() {
   pantallaTelefono();
 }
@@ -57,7 +56,7 @@ function pantallaTelefono() {
 }
 
 window.addEventListener("resize", pantallaTelefono);
-pantallaTelefono();
+//pantallaTelefono();
 window.onload = iniciar;
 
 /* Cambiar nombre del espectador en la bandeja de entrada */
@@ -88,6 +87,21 @@ saltar.onclick = () => {
   espectador();
 };
 
+nombreEspectador.addEventListener("keyup", function (apretar) {
+  if (apretar.key === "Enter") {
+    pantallaInicio.style.display = "none";
+    pantallaBandeja.style.display = "block";
+    document.title = "Bandeja de Entrada";
+    espectador();
+  }
+});
+
+const formulario = document.getElementById("formulario");
+
+formulario.addEventListener("submit", function(evento) {
+  evento.preventDefault();
+})
+
 function cambio(seleccion) {
   ocultar();
   const elemento = document.getElementById(seleccion);
@@ -112,15 +126,6 @@ selecCinco.onclick = function () {
 selecSeis.onclick = function () {
   cambio("texto-seis");
 };
-selecSiete.onclick = function () {
-  cambio("texto-siete");
-};
-selecOcho.onclick = function () {
-  cambio("texto-ocho");
-};
-selecNueve.onclick = function () {
-  cambio("texto-nueve");
-};
 
 function ocultar() {
   textoUno.style.display = "none";
@@ -133,3 +138,5 @@ function ocultar() {
   textoOcho.style.display = "none";
   textoNueve.style.display = "none";
 }
+
+saltar.onclick = saltar.onclick;
