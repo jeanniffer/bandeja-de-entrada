@@ -9,11 +9,11 @@
 */
 
 // Selector de pantallas
-const pantallaInicio = document.getElementById("contenedor");
+//const pantallaInicio = document.getElementById("contenedor");
 const pantallaBandeja = document.getElementById("bandeja");
-const responsive = document.getElementById("responsive");
+// const responsive = document.getElementById("responsive");
 
-const saltar = document.getElementById("siguiente");
+//const saltar = document.getElementById("siguiente");
 const textoInicial = document.getElementById("texto-uno");
 const nombreEspectador = document.getElementById("nombre");
 //const campoTexto = document.getElementById("nombre");
@@ -38,27 +38,29 @@ const textoSeis = document.getElementById("texto-seis");
 const textoSiete = document.getElementById("texto-siete");
 const textoOcho = document.getElementById("texto-ocho");
 const textoNueve = document.getElementById("texto-nueve");
-
+/*
 function iniciar() {
   pantallaTelefono();
 }
-
+*/
+/*
 function pantallaTelefono() {
   const w = document.documentElement.clientWidth;
 
   if (w <= 800) {
-    pantallaInicio.style.display = "none";
+    pantallaBandeja.style.display = "none";
     responsive.style.display = "block";
   } else {
-    pantallaInicio.style.display = "block";
+    pantallaBandeja.style.display = "block";
     responsive.style.display = "none";
   }
 }
-
+*/
+/*
 window.addEventListener("resize", pantallaTelefono);
 //pantallaTelefono();
 window.onload = iniciar;
-
+*/
 /* Cambiar nombre del espectador en la bandeja de entrada */
 function espectador() {
   const nombreEspectador = document.getElementById("nombre").value;
@@ -67,7 +69,7 @@ function espectador() {
 }
 
 /* Al iniciar no muestra esta serie de etiquetas */
-pantallaBandeja.style.display = "none";
+pantallaBandeja.style.display = "block";
 saltar.setAttribute("align", "center");
 textoUno.style.display = "none";
 textoDos.style.display = "none";
@@ -98,9 +100,9 @@ nombreEspectador.addEventListener("keyup", function (apretar) {
 
 const formulario = document.getElementById("formulario");
 
-formulario.addEventListener("submit", function(evento) {
+formulario.addEventListener("submit", function (evento) {
   evento.preventDefault();
-})
+});
 
 function cambio(seleccion) {
   ocultar();
