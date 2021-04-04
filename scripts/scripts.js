@@ -14,8 +14,8 @@ const pantallaBandeja = document.getElementById("bandeja");
 // const responsive = document.getElementById("responsive");
 
 //const saltar = document.getElementById("siguiente");
-const textoInicial = document.getElementById("texto-uno");
-const nombreEspectador = document.getElementById("nombre");
+//const textoInicial = document.getElementById("texto-uno");
+//const nombreEspectador = document.getElementById("nombre");
 //const campoTexto = document.getElementById("nombre");
 /* Selección de correos electrónicos */
 const selecUno = document.getElementById("selecUno");
@@ -29,6 +29,7 @@ const selecOcho = document.getElementById("selecOcho");
 const selecNueve = document.getElementById("selecNueve");
 
 /* Muestra de correo relacionado */
+const textoCero = document.getElementById("texto-cero");
 const textoUno = document.getElementById("texto-uno");
 const textoDos = document.getElementById("texto-dos");
 const textoTres = document.getElementById("texto-tres");
@@ -62,15 +63,17 @@ window.addEventListener("resize", pantallaTelefono);
 window.onload = iniciar;
 */
 /* Cambiar nombre del espectador en la bandeja de entrada */
+/*
 function espectador() {
   const nombreEspectador = document.getElementById("nombre").value;
   console.log(nombreEspectador);
   document.getElementById("espectador").innerHTML = `${nombreEspectador}`;
 }
-
+*/
 /* Al iniciar no muestra esta serie de etiquetas */
 pantallaBandeja.style.display = "block";
-saltar.setAttribute("align", "center");
+//saltar.setAttribute("align", "center");
+textoCero.style.display = "none";
 textoUno.style.display = "none";
 textoDos.style.display = "none";
 textoTres.style.display = "none";
@@ -82,6 +85,7 @@ textoOcho.style.display = "none";
 textoNueve.style.display = "none";
 
 /* Al hacer click desaparece la primera pantalla y muestra la bandeja, ejecuta la función espectador*/
+/*
 saltar.onclick = () => {
   pantallaInicio.style.display = "none";
   pantallaBandeja.style.display = "block";
@@ -103,12 +107,16 @@ const formulario = document.getElementById("formulario");
 formulario.addEventListener("submit", function (evento) {
   evento.preventDefault();
 });
-
+*/
 function cambio(seleccion) {
   ocultar();
   const elemento = document.getElementById(seleccion);
   elemento.style.display = "block";
 }
+
+selecCero.onclick = function () {
+  cambio("texto-cero");
+};
 
 selecUno.onclick = function () {
   cambio("texto-uno");
@@ -129,7 +137,20 @@ selecSeis.onclick = function () {
   cambio("texto-seis");
 };
 
+selecSiete.onclick = function () {
+  cambio("texto-siete");
+};
+
+selecOcho.onclick = function () {
+  cambio("texto-ocho");
+};
+
+selecNueve.onclick = function () {
+  cambio("texto-nueve");
+};
+
 function ocultar() {
+  textoCero.style.display = "none";
   textoUno.style.display = "none";
   textoDos.style.display = "none";
   textoTres.style.display = "none";
@@ -141,4 +162,4 @@ function ocultar() {
   textoNueve.style.display = "none";
 }
 
-saltar.onclick = saltar.onclick;
+// saltar.onclick = saltar.onclick;

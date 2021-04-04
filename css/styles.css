@@ -30,6 +30,17 @@ body {
   width: 100%;
   height: auto;
 }
+
+.imagenes{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 25px;
+}
+.imag-peq {
+	width: 48%;
+	height: auto;
+	margin: 1%;
+}
 /*
 img{
 	position: absolute;
@@ -77,8 +88,12 @@ h5 {
 }
 
 a {
-  color: #ffffff;
+  color: blue;
   margin: 0px;
+	font-family: "Fraunces", serif;
+	font-weight: 300;
+  font-size: 1.1em;
+  line-height: 1.6;
 }
 
 p {
@@ -215,7 +230,7 @@ label {
   color: #4b4b4b;
   /*background-color: #FAFAFA;*/
   display: flex;
-  height: 70px;
+  height: 80px;
   width: 100%;
   border-bottom: 1px solid #e1e1e1;
   overflow: hidden;
@@ -231,44 +246,109 @@ label {
 .izquierda {
   display: flex;
   align-items: flex-start;
-  vertical-align: 0 auto;
-  width: 33%;
+  width: 31%;
+}
+
+#selecCero {
+  cursor: pointer;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+#selecCero:hover {
+	background-color: #FBFBFB;
 }
 
 #selecUno {
   cursor: pointer;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+#selecUno:hover {
+	background-color: #FBFBFB;
 }
 
 #selecDos {
   cursor: pointer;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+#selecDos:hover {
+	background-color: #FBFBFB;
 }
 
 #selecTres {
   cursor: pointer;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+#selecTres:hover {
+	background-color: #FBFBFB;
 }
 
 #selecCuatro {
   cursor: pointer;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+#selecCuatro:hover {
+	background-color: #FBFBFB;
 }
 
 #selecCinco {
   cursor: pointer;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+#selecCinco:hover {
+	background-color: #FBFBFB;
 }
 
 #selecSeis {
   cursor: pointer;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
+
+#selecSeis:hover {
+	background-color: #FBFBFB;
+}
+
 #selecSiete {
   cursor: pointer;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+#selecSiete:hover {
+	background-color: #FBFBFB;
 }
 
 #selecOcho {
   cursor: pointer;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+#selecOcho:hover {
+	background-color: #FBFBFB;
 }
 
 #selecNueve {
   cursor: pointer;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
+
+#selecNueve:hover {
+	background-color: #FBFBFB;
+}
+
 
 #espectador {
   display: flex;
@@ -280,13 +360,13 @@ label {
 .titulo {
   display: flex;
   align-self: center;
-  margin-left: 2%;
+  margin-left: 3%;
 }
 
 .derecha {
   display: flex;
   justify-content: flex-end;
-  width: 50%;
+  width: 69%;
 }
 
 .busqueda {
@@ -306,8 +386,11 @@ label {
 }
 
 #profile {
-  align-self: center;
-  margin-right: 4%;
+	align-self: center;
+	margin-right: 4%;
+	display: flex;
+	width: 150px;
+	justify-content: space-around;
 }
 
 .container-blog {
@@ -315,7 +398,7 @@ label {
   align-items: stretch;
   width: 100%;
   height: 100%;
-  margin-top: 70px;
+  margin-top: 80px;
   overflow-y: hidden;
   overflow-x: hidden;
 }
@@ -418,21 +501,21 @@ label {
 
 .mails {
   display: block;
-  width: 33%;
-  height: calc(100% - 70px);
+  width: 31%;
+  height: calc(100% - 50px);
   position: absolute;
   background-color: white;
   -webkit-box-shadow: 11px 0px 55px -52px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 11px 0px 55px -52px rgba(0, 0, 0, 0.75);
   box-shadow: 11px 0px 55px -52px rgba(0, 0, 0, 0.75);
   border-right: 0.5px solid #e1e1e1;
-  overflow-x: hidden;
+	padding-bottom: 10px;
+  overflow-x: scroll;
   overflow-y: auto;
 }
 
 .frstm {
   display: flex;
-  margin-top: 1%;
   flex-direction: column;
   width: 100%;
   background-color: white;
@@ -477,9 +560,6 @@ label {
 }
 
 .borde {
-  margin-top: 2%;
-  margin-left: 2%;
-  margin-right: 2%;
   border-bottom: 1px solid #b3b3b380;
 }
 
@@ -493,15 +573,29 @@ label {
   color: white;
 }
 
+#texto-cero {
+  flex-direction: column;
+  position: absolute;
+/*  width: 50%; */
+  height: 100%;
+  left: 32%;
+  padding-top: 75px;
+  padding-left: 75px;
+  padding-right: 75px;
+	padding-bottom: 150px;
+  overflow-x: auto;
+}
+
 #texto-uno {
   flex-direction: column;
   position: absolute;
 /*  width: 50%; */
   height: 100%;
-  left: 33%;
+  left: 32%;
   padding-top: 75px;
   padding-left: 75px;
   padding-right: 75px;
+	padding-bottom: 150px;
   overflow-x: auto;
 }
 
@@ -510,10 +604,11 @@ label {
   position: absolute;
 /*  width: 50%; */
   height: 100%;
-  left: 33%;
+  left: 32%;
   padding-top: 75px;
   padding-left: 75px;
   padding-right: 75px;
+	padding-bottom: 150px;
   overflow-x: auto;
 }
 
@@ -522,10 +617,11 @@ label {
   position: absolute;
 /*  width: 50%; */
   height: 100%;
-  left: 33%;
+  left: 32%;
   padding-top: 75px;
   padding-left: 75px;
   padding-right: 75px;
+	padding-bottom: 150px;
   overflow-x: auto;
 }
 
@@ -534,10 +630,11 @@ label {
   position: absolute;
 /*  width: 50%; */
   height: 100%;
-  left: 33%;
+  left: 32%;
   padding-top: 75px;
   padding-left: 75px;
   padding-right: 75px;
+	padding-bottom: 150px;
   overflow-x: auto;
 }
 
@@ -546,10 +643,11 @@ label {
   position: absolute;
 /*  width: 50%; */
   height: 100%;
-  left: 33%;
+  left: 32%;
   padding-top: 75px;
   padding-left: 75px;
   padding-right: 75px;
+	padding-bottom: 150px;
   overflow-x: auto;
 }
 
@@ -558,10 +656,11 @@ label {
   position: absolute;
 /*  width: 50%; */
   height: 100%;
-  left: 33%;
+  left: 32%;
   padding-top: 75px;
   padding-left: 75px;
   padding-right: 75px;
+	padding-bottom: 150px;
   overflow-x: auto;
 }
 
@@ -570,10 +669,11 @@ label {
   position: absolute;
 /*  width: 50%; */
   height: 100%;
-  left: 33%;
+  left: 32%;
   padding-top: 75px;
   padding-left: 75px;
   padding-right: 75px;
+	padding-bottom: 150px;
   overflow-x: auto;
 }
 
@@ -582,10 +682,11 @@ label {
   position: absolute;
 /*  width: 50%; */
   height: 100%;
-  left: 33%;
+  left: 32%;
   padding-top: 75px;
   padding-left: 75px;
   padding-right: 75px;
+	padding-bottom: 150px;
   overflow-x: auto;
 }
 
@@ -594,10 +695,11 @@ label {
   position: absolute;
 /*  width: 50%; */
   height: 100%;
-  left: 33%;
+  left: 32%;
   padding-top: 75px;
   padding-left: 75px;
   padding-right: 75px;
+	padding-bottom: 150px;
   overflow-x: auto;
 }
 
@@ -647,7 +749,6 @@ label {
 }
 
 .subtitt {
-  padding-top: 8%;
   padding-bottom: 3%;
   text-align: left;
 }
