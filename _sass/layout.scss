@@ -1,0 +1,277 @@
+$color-texto: #656565;
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.real {
+  width: 100%;
+  height: auto;
+}
+
+.imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+.imag-peq {
+  width: 48%;
+  height: auto;
+  margin: 1%;
+}
+/*
+img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	opacity: 0.6;
+	z-index: 1;
+}
+*/
+/* Tipografías y estilos de texto*/
+h1 {
+  font-size: 36px;
+  color: $color-texto;
+}
+h2 {
+  font-size: 26px;
+  color: $color-texto;
+}
+
+h3 {
+  font-size: 1.2em;
+  color: $color-texto;
+}
+
+h4 {
+  font-size: 1em;
+  color: $color-texto;
+}
+
+h5 {
+  font-size: 0.9em;
+  margin: 0px;
+  color: $color-texto;
+}
+
+h1,
+h2 {
+  font-family: "Fraunces", serif;
+  font-weight: 500;
+  color: $color-texto;
+}
+
+h3,
+h4,
+h5 {
+  font-family: "IBM Plex Mono", "Courier New";
+  font-weight: 300;
+  margin: 0px;
+  color: $color-texto;
+}
+
+a {
+  color: $color-texto;
+  text-decoration: none;
+}
+
+p {
+  font-family: "Fraunces", serif;
+  margin: 0px;
+  font-weight: 300;
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: $color-texto;
+  display: block;
+}
+
+time {
+  color: #ababab;
+}
+
+.claro {
+  color: #ababab;
+}
+
+.titulo-proyecto {
+  margin-top: 1%;
+}
+
+.lista-proyectos {
+  display: block;
+  width: 31%;
+  height: 100%;
+  position: absolute;
+  background-color: white;
+  -webkit-box-shadow: 11px 0px 55px -52px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 0px 55px -52px rgba(0, 0, 0, 0.75);
+  box-shadow: 11px 0px 55px -52px rgba(0, 0, 0, 0.75);
+  border-right: 0.5px solid #e1e1e1;
+  padding-bottom: 10px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-top: 80px;
+}
+
+.metadata {
+  display: flex;
+  justify-content: space-between;
+}
+
+.proyecto-individual {
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.pagina-descriptiva {
+  display: flex;
+  position: relative;
+  top: 100px;
+}
+
+.borde {
+  position: relative;
+  left: 2%;
+  width: 96%;
+  border-bottom: 1px solid #b3b3b350;
+  //  border-bottom: 1px solid magenta;
+}
+.proyecto-individual:hover {
+  background-color: #fbfbfb;
+}
+
+.post {
+  flex-direction: column;
+  position: absolute;
+  height: 100%;
+  left: 32%;
+  padding-top: 150px;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-bottom: 75px;
+  overflow-x: auto;
+}
+
+.barra-superior {
+  background-color: white;
+  display: flex;
+  height: 80px;
+  width: 100%;
+  border-bottom: 1px solid #e1e1e1;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+}
+
+.izquierda {
+  display: flex;
+  align-items: flex-start;
+  width: 35%;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-left: 10px;
+}
+
+.sin-margen {
+  margin: 0px;
+}
+
+.margen {
+  margin-bottom: 2%;
+}
+
+.derecha {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  width: 69%;
+}
+
+#profile {
+  align-self: center;
+  margin-right: 4%;
+  display: flex;
+  width: 150px;
+  justify-content: space-around;
+}
+
+.pagina-descriptiva {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.espacio-centrado {
+  display: flex;
+  align-self: flex-start;
+  justify-self: center;
+  flex-direction: column;
+  width: 80%;
+  padding-top: 100px;
+  overflow-y: scroll;
+}
+
+.contenido {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pequena {
+  max-width: 47.5%;
+  height: auto;
+  margin: 1%;
+}
+
+.grande {
+  max-width: 100%;
+  height: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a2a2a2;
+}

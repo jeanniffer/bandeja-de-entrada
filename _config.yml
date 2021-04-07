@@ -1,0 +1,15 @@
+# Site Settings
+title: Jeanniffer Pimentel
+email: jeannifferpimentel@gmail.com
+description: >
+  Jeanniffer Pimentel - Portfolio
+baseurl: ""
+url: "https://www.jeanniffer.com"
+twitter_username: jeanniferpl
+github_username: jeanniffer
+# Build Settings
+sass:
+  sass_dir: _sass
+include: ["_pages"]
+kramdown:
+  input: GFM

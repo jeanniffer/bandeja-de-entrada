@@ -1,0 +1,15 @@
+<div class="lista-proyectos">
+  {% for post in site.posts %}
+	<div class="proyecto-individual">
+  <div class="metadata">
+    <h5 class="claro">{{ post.categories }}</h5>
+    <h5><time>{{ post.date | date: "%b %-d, %Y" }}</time></h5>
+  </div>
+  <h2 class="titulo-proyecto margen">
+    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  </h2>
+	<p class="claro">{{ post.description }}</p>
+</div>
+<div class="borde"></div>
+  {% endfor %}
+</div>

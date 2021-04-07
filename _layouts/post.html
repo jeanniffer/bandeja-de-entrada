@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h5 class="tiempo">
+    <time
+      >{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author
+      }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time
+    >
+  </h5>
+  <br />
+  <h1 class="sin-margen">{{ page.title }}</h1>
+    {{ content }}
+</div>
