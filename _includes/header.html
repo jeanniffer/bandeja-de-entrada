@@ -1,19 +1,15 @@
 <div class="barra-superior">
-  <div class="izquierda">
-    <div class="titulo">
-      <h1 class="sin-margen">
-        <a href="www.jeanniffer.com">{{ site.title }}</a>
-      </h1>
-      <h5>Selected Projects</h5>
-    </div>
-  </div>
-  <div class="derecha">
-    <div id="profile">
-      {% for page in site.pages %} {% if page.title %}
-      <h5>
-        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-      </h5>
-      {% endif %} {% endfor %}
-    </div>
-  </div>
+	<div class="izquierda">
+		<div class="titulo">
+			<h1 class="sin-margen"><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
+			<h5>Selected Projects</h5>
+		</div>
+	</div>
+	<div class="derecha">
+		<div id="profile">
+			{% for page in site.pages %} {% if page.title %}
+			<h5><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h5>
+			{% endif %} {% endfor %}
+		</div>
+	</div>
 </div>

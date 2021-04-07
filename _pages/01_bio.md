@@ -4,7 +4,4 @@ title: BIO
 permalink: /bio/
 ---
 
-About content goes here.
-
-- A list item
-- Another list item
+[Let's talk](mailto:jeannifferp@gmail.com){:class="enlace"}

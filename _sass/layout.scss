@@ -38,6 +38,11 @@ body {
   height: auto;
   margin: 1%;
 }
+
+.enlace{
+  color: blue;
+  text-decoration: line;
+}
 /*
 img{
 	position: absolute;
@@ -225,19 +230,15 @@ time {
 
 .pagina-descriptiva {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   display: flex;
-  justify-content: center;
+  position: relative;
+  overflow-x: scroll;
+  left: 140px;
 }
 
 .espacio-centrado {
-  display: flex;
-  align-self: flex-start;
-  justify-self: center;
-  flex-direction: column;
-  width: 80%;
-  padding-top: 100px;
-  overflow-y: scroll;
+  width: 40%;
 }
 
 .contenido {
