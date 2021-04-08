@@ -15,8 +15,9 @@ description: A website that generates human identities, bodies and subjectivitie
 <br>
 <br>
 #### <b> EN </b>
-Exercise to understand the use of programming classes, oriented to objects as generators of identities, bodies, people and virtual subjectivities, using [Corpora](https://github.com/dariusk/corpora) (Darius Kazemi’s repo) and p5.js.
-
+Exercise to understand the use of classes, in object oriented programming and generate identities, bodies, and virtual subjectivities, using [Corpora](https://github.com/dariusk/corpora) (Darius Kazemi’s repo) and p5.js.
+<br>
+<br>
 #### <b> ES </b>
 Ejercicio para entender el uso de las clases en la programación orientada a objetos como generador de identidades, cuerpos, personas y subjetividades virtuales usando el repositorio [Corpora](https://github.com/dariusk/corpora){:class="enlace"} de Darius Kazemi y p5.js.
 <br>
