@@ -28,3 +28,6 @@ This project was made during the [Art and mobile devices](https://1cgonza.github
 #### <b> ES </b>
 <b>espacio, ¿límite?</b> es una invitación a visitar un istmo lleno de recuerdos de los lugares que ya no puedo habitar. Algunos porque están lejos, pero la mayoría porque que ya no existen.
 <br>
+Diseño mapa, fotografías e idea: Jeanniffer Pimentel.<br>
+Desarrollado por Juan Camilo González.<br>
+Durante el laboratorio [Arte y dispositivos móviles](https://1cgonza.github.io/lab-moviles/){:class="enlace"} coordinado por [Juan Camilo Gonzalez](http://juancgonzalez.com/){:class="enlace"} y organizado por [CKWEB](https://ckweb.gov.co/){:class="enlace"}.<br>
