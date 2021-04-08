@@ -7,7 +7,6 @@ description: An algorithm that generates fake newspapers
 ---
 <br>
 ![Fake Newspaper](/imgs/absurdo-02.png){:class="pequena"}
-![Fake Newspaper](/imgs/absurdo-01.png){:class="pequena"}
 <br>
 <b>Absurd and Random</b>
 <br>
