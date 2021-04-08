@@ -5,6 +5,7 @@ date: 2018-12-28
 categories: FILM PHOTOGRAPHY
 description: Encontrando formas de hacerle frente a la ausencia.
 ---
+
 <br>
 ### Part 01: Videobeam
 ![Ausencia01](/imgs/ausencia-01.jpg){:class="pequena"}
@@ -20,7 +21,12 @@ description: Encontrando formas de hacerle frente a la ausencia.
 <br>
 2018
 <br>
-Experimental Darkroom Photography - Video projector - iPhone SE 
+Experimental film Photography - Video projector - iPhone SE 
 <br>
 <br>
+#### <b> EN </b>
+How to Avoid Absence? This is a recurring question when 15% of the population of the country where you live has migrated. Routines change, and the way in which you relate to others does too. The false presence that a screen offers is sometimes unbearable.
+<br>
+<br>
+#### <b> ES </b>
 *¿Cómo esquivar la ausencia?* es una pregunta recurrente cuando más del 15% de la población del país donde vives ha emigrado. Las rutinas cambian y la forma en la que te relacionas con otros también. La falsa presencia que ofrece una pantalla a veces es difícil de soportar.

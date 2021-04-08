@@ -19,4 +19,7 @@ description: Creative coding exercises
 2020<br>
 <br>
 ### <b>EN</b>
-An interactive canvas made in Javascript as part of [en-flujo](https://github.com/enflujo){:class="enlace"} a place to learn creative programming
+An interactive canvas made in Javascript as part of [en-flujo](https://github.com/enflujo){:class="enlace"}, a place to learn creative programming.
+<br>
+### <b>ES</b>
+Un lienzo interactivo hecho en Javascript como ejercicio de [en-flujo](https://github.com/enflujo){:class="enlace"}, un espacio para aprender programación creativa.
