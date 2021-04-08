@@ -18,8 +18,9 @@ description: Creative coding exercises
 [Website](https://enflujo.github.io/programacion-creativa/jeanniffer/lienzo-y-datos/){:class="enlace"}<br>
 2020<br>
 <br>
-### <b>EN</b>
-An interactive canvas made in Javascript as part of [en-flujo](https://github.com/enflujo){:class="enlace"}, a place to learn creative programming.
+#### <b>EN</b>
+An interactive canvas made in Javascript as an exercise on [en-flujo](https://github.com/enflujo){:class="enlace"}, a place to learn creative programming.
 <br>
-### <b>ES</b>
+<br>
+#### <b>ES</b>
 Un lienzo interactivo hecho en Javascript como ejercicio de [en-flujo](https://github.com/enflujo){:class="enlace"}, un espacio para aprender programación creativa.

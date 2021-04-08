@@ -17,12 +17,8 @@ description: Interactive mobile website / treasure map full of imaginary places
 #### <b> EN </b>
 <b>espacio, ¿límite?</b> is a virtual-physical travel through the places that I can no longer inhabit: some of them because are miles away, but most of them are from a country that no longer exists.
 <br>
-<br>
 [Source code](https://github.com/1cgonza/lab-moviles/tree/main/proyectos/espacio-limite){:class="enlace"}
 <br>
-Design, map, 35mm film photos and idea: Jeanniffer Pimentel.<br>
-Developed by Juan Camilo González.<br>
-This project was made during the [Art and mobile devices](https://1cgonza.github.io/lab-moviles/){:class="enlace"} lab. Coordinated by [Juan Camilo Gonzalez](http://juancgonzalez.com/){:class="enlace"} and organized by [CKWEB](https://ckweb.gov.co/){:class="enlace"}.<br>
 
 <br>
 #### <b> ES </b>

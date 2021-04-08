@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "¿Cómo esquivar la ausencia?"
+title: "How to avoid absence?"
 date: 2018-12-28
 categories: FILM PHOTOGRAPHY
-description: Encontrando formas de hacerle frente a la ausencia.
+description: (And the unbearable screen)
 ---
 
 <br>
